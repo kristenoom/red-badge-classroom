@@ -1,13 +1,14 @@
 import React from "react";
-import FetchExamples from "./components/FetchExamples";
+import FunctionFetchOnload from "./components/FunctionFetchOnload";
+import ClassFetchOnload from "./components/ClassFetchOnload.jsx";
 
 function App() {
-    
-    return (
-        <div>
-            <FetchExamples />
-        </div>
-    );
+  return (
+    <div>
+          <FunctionFetchOnload />
+          <ClassFetchOnload />
+    </div>
+  );
 }
 
 export default App;
